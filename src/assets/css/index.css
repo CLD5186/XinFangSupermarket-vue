@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: PingFangSC-Regular, sans-serif;
+}
+[v-cloak] {
+  display: none !important;
+}
+html {
+  font-size: 10vw;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-text-size-adjust: none;
+  -webkit-touch-callout: text;
+  /*系统默认菜单被禁用*/
+  -webkit-user-select: text;
+  /*webkit浏览器*/
+  /*早期浏览器*/
+  -moz-user-select: text;
+  /*火狐*/
+  -ms-user-select: text;
+  /*IE10*/
+  user-select: text;
+  font-family: PingFangSC-Regular, sans-serif;
+}
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+::-webkit-scrollbar {
+  display: none !important;
+}
